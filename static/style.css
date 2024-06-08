@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(2, 48, 71);
+    border: none;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+h1 {
+    color: rgb(255,255,255);
+}
+
+.small_text {
+    color: rgb(142, 202, 230);
+    font-weight: 1;
+}
+
+#buildings_logo {
+    width: 50px;
+}
+
+.input-container {
+    position: relative;
+    width: 300px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 40px 10px 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.input-container input::placeholder {
+    color: rgb(2, 48, 71);
+    font-weight: 300;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #FB8500;
+    border-color: none;
+    border-style: hidden;
+    color: rgb(255,255,255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search2 {
+    margin-top:2rem;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #FB8500;
+    border-color: none;
+    border-style: hidden;
+    color: rgb(255,255,255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+.search:hover {
+    background-color: #FFBC31;
+}
